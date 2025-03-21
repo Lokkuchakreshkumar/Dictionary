@@ -33,7 +33,7 @@ input {
   width: 15rem;
   border: 1px solid black;
   height: 1.5rem;
-  padding: 0.3rem;
+  padding: 0.4rem;
   margin-top: 1rem;
   margin-left: 1rem;
 }
@@ -43,6 +43,7 @@ input:focus {
 }
 input::placeholder {
   color: gray;
+  margin-left: 0.5rem;
 }
 input:foucs {
   border: 1px solid black;
