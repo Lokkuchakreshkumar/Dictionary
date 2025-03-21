@@ -9,7 +9,8 @@ li1.remove();
 li2.remove();
 let error = document.querySelector(".error");
 ul = document.querySelector("ul");
-search.addEventListener("click", () => {
+search.addEventListener("click", (event) => {
+  event.preventDefault();
   let wordtosearch = input.value;
   getWord(wordtosearch);
 });
