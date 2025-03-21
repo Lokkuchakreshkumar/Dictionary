@@ -1,0 +1,82 @@
+body {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  color: #e0e0e0;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+li:hover {
+  color: #b1acac;
+  cursor: auto;
+}
+.playbtn {
+  visibility: hidden;
+}
+.container {
+  width: 25rem;
+  height: 20rem;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border-radius: 1rem;
+  width: 15rem;
+  border: 1px solid black;
+  height: 1.5rem;
+  padding: 0.3rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+input:focus {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+input::placeholder {
+  color: gray;
+}
+input:foucs {
+  border: 1px solid black;
+}
+.show {
+  visibility: visible;
+}
+.search {
+  background-color: #ff4d6d;
+  border-radius: 1rem;
+  width: 5rem;
+  height: 2rem;
+  margin-left: 1rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 0.1rem;
+}
+.search {
+  background: linear-gradient(90deg, #ff7eb3, #ff758c, #ff6374, #ff4f5e);
+}
+.playbtn {
+  border-radius: 1rem;
+  background-color: #f2f2f2;
+  width: 5rem;
+  height: 2rem;
+  margin-top: 2rem;
+  margin-right: 8rem;
+  margin-left: 8rem;
+  border: 1px solid black;
+}
+.error {
+  color: red;
+}
+button:hover {
+  cursor: pointer;
+}
